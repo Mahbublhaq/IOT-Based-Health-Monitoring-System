@@ -140,7 +140,7 @@
             <h1>IOT Based Smart Health MOnitoring System </h1>
         </div>
        <div class="not">
-       <marquee>Note:Contract:+88010492482491 Email: ishms@gmail.com </marquee>
+       <marquee>Note:Contract:+8801601-337085 Email: mahbubulhaq.cu.05@gmail.com </marquee>
 
        </div>
        <div class="bo">

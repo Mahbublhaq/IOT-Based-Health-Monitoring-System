@@ -106,13 +106,27 @@
             margin-bottom: 30px;
             border-radius: 8px 8px 0 0;
         }
+
+        .forgot-password {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .forgot-password a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .forgot-password a:hover {
+            color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <h1>IOT Based Health Monitoring System</h1>
     <div class="container">
         <h2>Login</h2>
-        
         <form action="/model/ulogin.php" method="post">
             <div class="form-group">
                 <input type="text" name="username" placeholder="Username" required>
@@ -130,8 +144,12 @@
             </div>
             <button type="submit">Login</button>
         </form>
-        <p class="text-center signup-link">Don't have an account? <a href="signup.php">Sign up here</a></p>
-       <!-- <p class="text-center"><a href="/model/forget_pass.php">Forgot Password?</a></p>-->
+        <div class="forgot-password">
+            <a href="/view/forget_pass.php">Forgot Password?</a>
+        </div>
+        <div class="signup-link">
+            Don't have an account? <a href="signup.php">Sign up here</a>
+        </div>
     </div>
 </body>
 </html>

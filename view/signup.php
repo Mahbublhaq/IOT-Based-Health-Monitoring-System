@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .header {
@@ -17,25 +17,47 @@
             color: #fff;
             padding: 20px;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .container {
-            max-width: 50%;
+            max-width: 600px;
             margin: 0 auto;
             padding: 0 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #343a40;
+            font-size: 36px;
+            margin-bottom: 30px;
+            font-weight: 600;
         }
 
         .form-group {
             margin-bottom: 20px;
         }
 
+        .form-control {
+            border-radius: 5px;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+        }
+
+        label {
+            color: #495057;
+            font-weight: 500;
+        }
+
         button[type="submit"] {
             background-color: #007bff;
             color: #fff;
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             font-size: 18px;
+            border-radius: 5px;
+            font-weight: 600;
             transition: background-color 0.3s ease, transform 0.3s ease;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -50,15 +72,24 @@
             transform: translateY(0);
         }
 
-        h2 {
-            text-align: center;
-            color: black;
-            font-size: 50px;
-            margin-bottom: 30px;
-        }
-
         .specialization-field {
             display: none;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .login-link a:hover {
+            color: #0056b3;
         }
     </style>
 </head>
@@ -116,6 +147,9 @@
             </div>
             <button type="submit" class="btn btn-primary">Signup</button>
         </form>
+        <div class="login-link">
+            <p>Already have an account? <a href="/view/login.php">Login here</a></p>
+        </div>
     </div>
 
     <!-- Bootstrap JS and jQuery -->
